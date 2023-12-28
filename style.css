@@ -77,6 +77,10 @@ html{
     padding: 10px;
     background-color: yellow;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#maintext h2{
+    font-weight: 300;
 }
 
 /* about page over here  */
@@ -88,6 +92,7 @@ html{
     display: flex;
     justify-content: space-between;
     color: black;
+    background-image: url("");
 }
 #box {
     height: 300px;
@@ -111,7 +116,7 @@ html{
     left: 6%;
     height: 300px;
     margin-top: 250px;
-    border: 3px dotted yellow;
+    /* border: 3px dotted yellow; */
     
 }
 #heading{
@@ -142,7 +147,8 @@ position: absolute;
 #blog{
     height: 100vh;
     width: 100%;
-    background-color: rgb(153, 150, 150);
+    /* background-color: rgb(153, 150, 150); */
+    background-color: #dadada;
     position: relative;
     z-index: 99;
 }
@@ -276,10 +282,45 @@ position: absolute;
 }
 
 
-
-
+/* contact over here */
 #contact{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    color: #dadada;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: url(https://rb.gy/zukbp2);
+}
+#contact h2{
+    text-align: start;
+    color: white;
+    font-size: 80px;
+    padding-left: 8%;
+    padding-top: 8%;
+}
+#rightpart{
+    height: 60vh;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+#contact a{
+    text-decoration: none;
+    color: #dadada;
+}
+#uparrow{
+    background-color: rgb(87, 86, 86);
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+    
 }
