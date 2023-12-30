@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div id="main">
+        <div id="loaderpage">
+            <div id="loadtext">
+                <h1>Be Sincere </h1><br><h1>Not Serious!</h1>
+            </div>
+        </div>
         <div id="nav">
             <div id="logo">
                 <h1>Portfolio.</h1>
             </div>
-            <div id="text">
+            <div id="menu">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#blog">Blog</a>
@@ -33,9 +36,7 @@
             <img id="img1"
                 src="https://images.unsplash.com/photo-1545486332-9e0999c535b2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
                 alt="#">
-            <img id="img2"
-                src="/img1.jpg"
-                alt="#">
+            <img id="img2" src="/img1.jpg" alt="#">
 
             <div id="maintext">
                 <h2>MY NAME IS</h2><br>
@@ -47,77 +48,95 @@
         <!-- about page  -->
         <div id="about">
             <div id="box"></div>
-            <img src="/img2.jpg"
-                alt="#">
+            <img src="/img2.jpg" alt="#">
             <div id="heading">
                 <h3>who am i</h3><br>
-                <div id="box2"> <h1>HELLO</h1></div>
-           
-            
-          
-           
+                <div id="box2">
+                    <h1>HELLO</h1>
+                </div>
+
+
+
+
                 <p>
-                    Salutations, digital wanderers! 👋 I'm Shivam Joshi, your resident Byte Alchemist and architect of the web's next big thing. 💻✨ Fluent in the mystical languages of HTML, CSS, and JavaScript, I'm conjuring code spells that dance on the edge of innovation. 🌌 From bending React.js to my will to orchestrating the backend ballet with Node.js, my journey into full-stack sorcery is in full swing. 🚀🔮 Inspired by the elegance of design, I'm on a mission to turn tech dreams into pixel-perfect realities. Unravel the lines of code with me, where bugs are just temporary glitches, and every error is a stepping stone to greatness. Let's manifest the future, one byte at a time! 🌐💫 
+                    Salutations, digital wanderers! 👋 I'm Shivam Joshi, your resident Byte Alchemist and architect of
+                    the web's next big thing. 💻✨ Fluent in the mystical languages of HTML, CSS, and JavaScript, I'm
+                    conjuring code spells that dance on the edge of innovation. 🌌 From bending React.js to my will to
+                    orchestrating the backend ballet with Node.js, my journey into full-stack sorcery is in full swing.
+                    🚀🔮 Inspired by the elegance of design, I'm on a mission to turn tech dreams into pixel-perfect
+                    realities. Unravel the lines of code with me, where bugs are just temporary glitches, and every
+                    error is a stepping stone to greatness. Let's manifest the future, one byte at a time! 🌐💫
                 </p>
-            
+
             </div>
-            
+
         </div>
         <!-- blog section ovr here -->
         <div id="blog">
-           <div id="headingblog">    Blogs  </div>
-           <div id="boxh"></div>
-          <div id="card"> 
-            <div id="card1">
-                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1702229112832/d6d7bf7f-ab96-4a8e-8fa7-ef190e479529.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="error">
-                <h4>Hoisting in Javascript</h4>
-                <h6>Before knowing about hoisting get well versed with 'Execution context' in Javascript and how it works without it we can not understand the hoisting,<br>
+            <div id="headingblog"> Blogs </div>
+            <div id="boxh"></div>
+            <div id="card" class="card">
+                <div id="card1">
+                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1702229112832/d6d7bf7f-ab96-4a8e-8fa7-ef190e479529.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+                        alt="error">
+                    <h4>Hoisting in Javascript</h4>
+                    <h6>Before knowing about hoisting get well versed with 'Execution context' in Javascript and how it
+                        works without it we can not understand the hoisting,<br>
 
-                    So what is Execution context -
-                    Imagine your JavaScript program as a series of instructions to be executed. The execution context is like a backstage area that keeps track of what's happening.</h6><br>
+                        So what is Execution context -
+                        Imagine your JavaScript program as a series of instructions to be executed. The execution
+                        context is like a backstage area that keeps track of what's happening.</h6><br>
                     <a href="https://shivambyteprodigy.hashnode.dev/hoisting-in-javascript">Read It</a>
 
+                </div>
+                <div id="card2" class="card">
+                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1702226514326/bceb1709-400e-4d0d-87f2-e115b9b86e5b.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+                        alt="error">
+                    <h4>Asynchronous js and Synchronous js</h4>
+                    <h6>Synchronous JavaScript executes code sequentially, blocking the other program until each
+                        operation completes. As a result, it can lead to slower performance. Asynchronous JavaScript, on
+                        the other hand, allows tasks to run concurrently, enhancing responsiveness by enabling
+                        non-blocking operations.
+
+                        Whenever you see all these codes:
+
+                        setTimeout
+
+                        setInterval
+
+                        Promises
+                        .....</h6><br>
+                    <a href="https://shivambyteprodigy.hashnode.dev/asynchronous-js-and-synchronous-js">Read It</a>
+
+                </div>
+                <div id="card3" class="card">
+                    <img src="https://rb.gy/ewpm6y" alt="error">
+                    <h4>AI Unleashed: Crafting Tomorrow's Saga</h4>
+                    <h6>Artificial Intelligence (AI) is a new maestro in the symphony of human development,
+                        orchestrating a revolution that is quiet. Fasten your seatbelts because we are about to on a
+                        journey where the ordinary turns extraordinary and the unthinkable becomes true.
+
+                        🚀 Inhale, Exhale: The Journey of Healthcare
+                        Imagine living in a future where illnesses are ...</h6><br>
+                    <a href="https://shivamjoshi.hashnode.dev/ai-unleashed-crafting-tomorrows-saga">Read It</a>
+                </div>
+
             </div>
-           <div id="card2">
-            <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1702226514326/bceb1709-400e-4d0d-87f2-e115b9b86e5b.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="error">
-            <h4>Asynchronous js and Synchronous js</h4>
-            <h6>Synchronous JavaScript executes code sequentially, blocking the other program until each operation completes. As a result, it can lead to slower performance. Asynchronous JavaScript, on the other hand, allows tasks to run concurrently, enhancing responsiveness by enabling non-blocking operations.
 
-                Whenever you see all these codes:
-                
-                setTimeout
-                
-                setInterval
-                
-                Promises
-                .....</h6><br>
-                <a href="https://shivambyteprodigy.hashnode.dev/asynchronous-js-and-synchronous-js">Read It</a>
 
-           </div>
-           <div id="card3">
-            <img src="https://rb.gy/ewpm6y" alt="error">
-            <h4>AI Unleashed: Crafting Tomorrow's Saga</h4>
-            <h6>Artificial Intelligence (AI) is a new maestro in the symphony of human development, orchestrating a revolution that is quiet. Fasten your seatbelts because we are about to on a journey where the ordinary turns extraordinary and the unthinkable becomes true.
-
-                🚀 Inhale, Exhale: The Journey of Healthcare
-                Imagine living in a future where illnesses are  ...</h6><br>
-                <a href="https://shivamjoshi.hashnode.dev/ai-unleashed-crafting-tomorrows-saga">Read It</a>
-           </div>
-           
         </div>
-    
-        
-    </div>
 
         <div id="contact">
-             
+
             <h2>Let's Built <br>Something <br>Great together!</h2>
             <div id="rightpart">
                 <h3>Connect Here</h3>
-            Email id : shivamjoshiofficial08@gmail.com
-            <div class="git"><i class="ri-github-fill"></i>  <a href="https://github.com/Shivam182004">Github</a></div>
-            <div class="linkedin"><i class="ri-linkedin-box-fill"></i>  <a href="https://www.linkedin.com/in/shivam-joshi-784154248/">Linkedin</a></div>
-            <div class="x"><i class="ri-twitter-x-fill"></i>  <a href="https://github.com/Shivam182004">X</a></div>
+                Email id : shivamjoshiofficial08@gmail.com
+                <div class="git"><i class="ri-github-fill"></i> <a href="https://github.com/Shivam182004">Github</a>
+                </div>
+                <div class="linkedin"><i class="ri-linkedin-box-fill"></i> <a
+                        href="https://www.linkedin.com/in/shivam-joshi-784154248/">Linkedin</a></div>
+                <div class="x"><i class="ri-twitter-x-fill"></i> <a href="https://github.com/Shivam182004">X</a></div>
 
             </div>
 
@@ -128,7 +147,19 @@
 
     </div>
 
+<!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> 
+    <script src="script.js"></script>
 </body>
 
 </html>

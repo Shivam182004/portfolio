@@ -13,6 +13,21 @@ html,body{
 html{
     scroll-behavior: smooth;
 }
+#loaderpage{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(40, 39, 39);
+    position: absolute;
+    z-index: 9999999;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+#loadtext{
+    font-size: 3.4rem;
+    
+}
 #main{
     height: 100vh;
     width: 100%;
@@ -31,10 +46,10 @@ html{
     padding: 30px;
     background-color:transparent;
     position: fixed;
-    z-index: 999999;
+    z-index: 999;
     
 }
- #text{
+ #menu{
     display: flex;
     gap: 30px;
     font-size: 20px;
@@ -42,10 +57,15 @@ html{
     text-decoration: none;
     color: aqua;
 }
-#text a {
+#menu a {
     text-decoration: none;
     color: white;
 }
+#menu a:hover{
+    border-bottom:4px solid  yellow;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 
 /* home page over here */
 #home{
@@ -148,7 +168,7 @@ position: absolute;
     height: 100vh;
     width: 100%;
     /* background-color: rgb(153, 150, 150); */
-    background-color:  rgba(0, 0, 0, 0.441);
+    background-color: rgba(0, 0, 0, 0.441) ;
     position: relative;
     z-index: 99;
 }
