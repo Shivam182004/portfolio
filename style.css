@@ -23,9 +23,12 @@ html{
     /* text-align: center; */
     justify-content: center;
     align-items: center;
+    
 }
 #loadtext{
-    font-size: 3.4rem;
+    font-size: 1rem;
+    font-family: 'Dancing Script';
+    word-spacing: 2%;
     
 }
 #main{
@@ -171,7 +174,8 @@ position: absolute;
     height: 100vh;
     width: 100%;
     /* background-color: rgb(153, 150, 150); */
-    background-color: rgba(0, 0, 0, 0.441) ;
+    /* background-color: rgba(0, 0, 0, 0.441) ; */
+    background-color: #282828;
     position: relative;
     z-index: 99;
 }
