@@ -94,13 +94,16 @@ html{
 }
 #home #maintext2{
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: yellow;
+    border-radius: 12px;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: 900;
 }
 #maintext h2{
-    font-weight: 300;
+    font-weight: 100;
+    word-spacing: 8px;
 }
 
 /* about page over here  */
