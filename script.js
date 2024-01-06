@@ -1,4 +1,9 @@
+
 var tl = gsap.timeline();
+
+
+
+
 
 
 tl.from("#loadtext h1",{
@@ -75,5 +80,4 @@ Shery.mouseFollower({
     
   });
 
- 
  
