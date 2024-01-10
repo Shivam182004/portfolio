@@ -1,11 +1,6 @@
 
 var tl = gsap.timeline();
 
-
-
-
-
-
 tl.from("#loadtext h1",{
     
   
