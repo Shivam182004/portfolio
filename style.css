@@ -322,43 +322,49 @@ position: absolute;
     height: 150px;
     width: 100%;
     /* background-color: aqua; */
-    border-top:5px solid  #dadada;
+    /* border-top:5px solid  #dadada; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* padding: 06%; */
-    padding-right: 50px;
-    padding-left: 50px;
+     padding-right: 80px;
+    padding-left: 50px; 
+    
 }
 .blogbox2{
     height: 150px;
     width: 100%;
     /* background-color: rgb(141, 16, 126); */
-    border-top:5px solid  #dadada;
+    /* border-top:5px solid  #dadada; */
     /* padding: 06%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* padding: 06%; */
-    padding-right: 50px;
+    padding-right: 70px;
     padding-left: 50px;
 }
 .blogbox3{
     height: 150px;
     width: 100%;
     /* background-color: rgb(63, 51, 227); */
-    border-top:5px solid  #dadada;
+    /* border-top:5px solid  #dadada; */
     /* padding: 05%; */
       display: flex;
     align-items: center;
+    
     justify-content: space-between;
     /* padding: 06%; */
-    padding-right: 50px;
+    padding-right: 70px;
     padding-left: 50px;
     padding-top: 10px;
 }
 .blogbox1 > img{
     height: 140px;
+}
+.readmorebtn{
+    padding-left: 90px;
+    padding-bottom: 10px;
 }
  .readitbtn > a{
     border-radius: 50px;
@@ -368,6 +374,7 @@ position: absolute;
     padding: 10px;
     font-weight: 900;
     text-decoration: none;
+   
    
 }
 .blogbox2 > img{
